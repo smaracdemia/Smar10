@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Verification Requirements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .requirement-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .requirement-section h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+        .important {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Verification Requirements</h1>
+        
+        <div class="requirement-section">
+            <h3>1. Payment Destination</h3>
+            <p>All payments must be made to CBE Bank with the following details:</p>
+            <ul>
+                <li><strong>Account Name:</strong> YABETS AKALU GEBREMICHAEL</li>
+                <li><strong>Account Number:</strong> 1000650258367</li>
+            </ul>
+        </div>
+        
+        <div class="requirement-section">
+            <h3>2. Required Information in Screenshot</h3>
+            <p>Your payment screenshot must clearly show:</p>
+            <ul>
+                <li><span class="important">Mandatory:</span> Either the account name "YABETS AKALU GEBREMICHAEL" or account number "1000650258367"</li>
+                <li><span class="important">Mandatory:</span> Payment amount of 10 ETB or greater</li>
+                <li><span class="important">Mandatory:</span> Today's date (screenshots from previous days will be rejected)</li>
+                <li>Clear, readable text (avoid blurry or low-quality images)</li>
+            </ul>
+        </div>
+        
+        <div class="requirement-section">
+            <h3>3. Screenshot Uniqueness</h3>
+            <p>To prevent fraud and duplicate submissions:</p>
+            <ul>
+                <li>Each screenshot can only be used once</li>
+                <li>The system will detect and reject previously submitted screenshots</li>
+                <li>Screenshots cannot be reused by the same person or different users</li>
+            </ul>
+        </div>
+        
+        <div class="requirement-section">
+            <h3>4. Technical Requirements</h3>
+            <p>File specifications:</p>
+            <ul>
+                <li>Supported formats: PNG, JPG, JPEG, GIF</li>
+                <li>Maximum file size: 16MB</li>
+                <li>Recommended: High resolution, clear text</li>
+                <li>Avoid: Blurry, rotated, or heavily compressed images</li>
+            </ul>
+        </div>
+        
+        <div class="requirement-section">
+            <h3>5. Verification Process</h3>
+            <p>The system will automatically:</p>
+            <ul>
+                <li>Extract text from your screenshot using OCR technology</li>
+                <li>Verify the presence of required account information</li>
+                <li>Check that the amount meets the minimum requirement</li>
+                <li>Confirm the date matches today's date</li>
+                <li>Ensure the screenshot hasn't been used before</li>
+            </ul>
+        </div>
+        
+        <div class="back-link">
+            <a href="/">← Back to Upload</a>
+        </div>
+    </div>
+</body>
+</html>
