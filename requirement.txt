@@ -1,2 +1,7 @@
-flask
+Flask
 gunicorn
+Werkzeug
+pillow
+pytesseract
+opencv-python
+numpy
